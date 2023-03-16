@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@200;400;700&display=swap');
+
+
+.navbar {
+    font-family: 'Sora', sans-serif;
+    background-color: rgb(87, 68, 198);
+    min-width: 100%;
+    min-height: 80px;
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+.links {
+margin: 0;
+padding-right: 40px;
+display: flex;
+align-items: center;
+
+
+}
+
+.links a {
+text-decoration: none;
+font-size: 25px ;
+padding-right: 20px;
+color: white;
+font-weight: 500;
+}
+
+
